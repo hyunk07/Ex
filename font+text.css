@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+    background-color: rgb(88, 180, 255);
+}
+#ft{
+    background-color: #fff;
+}
+#sc{
+    text-align: left;
+}
+.mt{
+    background-color: orange;
+    text-align: right;
+}
+.pg{
+    background-color: rgb(255, 123, 82);
+}
+.det{
+    text-align: center;
+    text-decoration: underline ;
+}
+h1{
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    font-size: 24px;
+}
