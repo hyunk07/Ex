@@ -1,7 +1,7 @@
 ----------------------
 # 0410 
 ## LayoutEx
-###article과 aside 정렬하는 게 어려웠음
+### article과 aside 정렬하는 게 어려웠음
 
 		*float:left; 값은 주니 본문, 사이드바, 바닥들이 이상한 모양으로 정렬이 됨
 		* 바닥글에 footer {clear: both;}값을 줌, 바닥글은 해결.
