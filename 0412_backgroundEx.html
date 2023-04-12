@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>backgroundEx</title>
+    <style>
+        body{
+            border: 5px solid black;
+            width: 700px; height: 350px;
+            border-radius: 30px;
+            text-align: center;
+            margin: 20px auto;
+        }
+        input{
+            width: 300px; height: 70px;
+            border-radius: 20px;
+            line-height: 70px;
+            background-color: #9dcefc;
+            margin: 15px;
+            font-size: 25px;
+            padding: 0 60px;
+
+            background-repeat: no-repeat;
+            background-size: 50px;
+            background-position: 5px 50%;
+        }
+        ul{
+            padding: 0;
+        }
+        ul li{
+            list-style: none;
+
+        }
+        #user{
+            background-image: url(./images/user.png);
+        }
+        #mail{
+            background-image: url(./images/mail.png);
+        }
+        #phon{
+            background-image: url(./images/phon.png);
+        }
+        input:focus{
+            background-color: #57aeff;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><input type="text" placeholder="이름을 입력하세요" id="user"></li>
+        <li><input type="text" placeholder="이메일을 입력하세요" id="mail"></li>
+        <li><input type="text" placeholder="연락처를 입력하세요" id="phon"></li>
+    </ul>
+</body>
+</html>
