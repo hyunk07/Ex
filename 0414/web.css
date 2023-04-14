@@ -1,0 +1,164 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=DynaPuff:wght@400;600&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+body{
+   height: 100vh;
+   background: url(./images/bgc.jpg) no-repeat 50% / cover;
+}
+	.layout{ 
+		width: 950px;height: 806px; 
+		border: 3px solid black;
+		margin: 0 auto;
+      font-family: 'Nanum Gothic', sans-serif;
+	}
+	.head{
+		height: 130px;
+		padding: 20px 130px;
+		box-sizing: border-box;
+      background:  #ff9306 url(./images/favicon_io/android-chrome-192x192.png) no-repeat 25px 50% / 100px;
+      font-family: 'DynaPuff', cursive;
+	}
+	.head h1{
+		margin: 0;
+   }
+   .head h1:nth-of-type(2){
+      font-family: 'Caveat', cursive;
+		margin: 0;
+   }
+	
+	main{
+		
+		overflow: hidden;
+	}
+
+	.main .menu{
+		height: 45px;
+		line-height: 45px;
+		background-color: #ffd103;
+	}
+	.main .content{
+		width:950px;
+		height: 600px;
+	}
+	.main .content .article{
+		float: left;
+		width: 665px;
+		
+		height: 600px;
+		background-color: #fff5f6;
+	}
+	.main .content .list{
+		float: left;
+		width: 283px;
+		
+		height: 600px;
+		background-color: #ffffff;
+	}
+
+	.footer{
+		height: 30px;
+		line-height: 30px;
+		padding-left: 10px;
+		background-color: #ff9306;
+		overflow: hidden;
+	}
+/* ---- */
+	.main ul{
+		list-style: none;
+		padding: 0;
+		clear: both;
+		margin: 0;
+	}
+	.main ul a{
+   color: #000;
+   text-decoration: none;
+	}
+
+	.main .menu ul a{
+   float: left;
+	font-size: 20px;
+	padding: 0 20px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	}
+	.main .menu ul a:hover{
+      font-weight: normal;
+      color: rgb(63, 63, 63);
+      background-color: #fff785;
+	}
+
+
+	/* ----- */
+	img{
+		width: 290px;
+		height: 190px;
+		object-fit: cover;
+		margin: 5px 10px;
+	}
+	figure figcaption{
+		font-size: 20px;
+		font-style: italic;
+		text-align: right;
+		padding-right: 15px;
+		color: #3d3d3d;
+	}
+figure{
+	margin: 0;
+}
+
+	.content .article ul li{
+   float: left;
+   width: 280px;
+		margin: 20px 15px;
+	}
+	.content .article ul .bg{
+   width: 310px; height: 230px;
+   border: 1px solid black;
+   background-color: #fff;
+}
+.content .article h3{
+	color: red;
+}
+	
+	.main .list{
+   border-left: 1px solid #ff9306;
+   margin: 0;
+}
+
+.main .list ul li {
+   border-bottom: 1px solid #ff9306;
+	height: 60px;
+	line-height: 60px;
+}
+.main .list ul li a{
+	font-size: 25px;
+	padding: 10px;
+}
+
+.main .list ul li:hover{
+   font-weight: bold;
+	background-color: #ffe385;
+	}
+
+.main .list p{
+   height: 290px;
+	
+	font-size: 20px;
+}
+.bir{
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+.main .list h2{
+	padding-left: 15px;
+	padding-top: 15px;
+}
+.main .list p{
+	padding-left: 15px;
+}
+footer{
+	font-weight: bold;
+}
+
