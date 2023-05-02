@@ -1,0 +1,55 @@
+@charset 'utf-8';
+
+body, p{margin: 0; text-transform: capitalize;}
+strong{font-style: italic;}
+h1{font-size: 50px; margin: 0 ; }
+p{margin-top: 30px;font-size: 1.5rem;}
+
+.bg1{ background-color: #AFD3E2;
+   height: 100vh; margin: auto;}
+.bg2{ background-color: #19A7CE;height: 100vh; margin: auto;}
+
+
+.box1 {width: 62vw;height: 100vh;margin: auto; display: flex; flex-flow: column;justify-content: center;}
+.box1 h1{font-size: 120px;margin-bottom: 45px;}
+.box1 p:nth-child(4){
+   text-align: center;padding: 20px 40px;
+   width: 150px; border: 2px solid black; border-radius: 30px;font-size: 1rem;font-size: 1rem;}
+
+
+.box2{display: flex; justify-content: center;align-items: center; overflow: hidden;}
+.box2 .container1{width: 37vw; display: flex;flex-flow: column;justify-content: center;
+padding:30px;margin:0 120px;}
+.box2 img{width: 63vw;height: 100vh; object-fit: cover; overflow: hidden;}
+.box2 p:nth-child(4){
+   text-align: center;padding: 20px 40px;
+   width: 150px; border: 1px solid black; border-radius: 30px;font-size: 1rem;}
+
+.box3{height: 100vh; display: flex;justify-content: center;align-items: center;gap: 130px;}
+.box3 .txt{width: 27vw;}
+.box3 p:nth-child(4){
+   text-align: center;padding: 20px 40px;
+   width: 150px; border: 2px solid black; border-radius: 30px;font-size: 1rem;}
+
+
+.box4{display: flex;flex-flow: row-reverse; justify-content: center;align-items: center; overflow: hidden;}
+.box4 .container2{width: 42vw; display: flex;flex-flow: column;justify-content: center;
+padding:30px;margin:0 120px;}
+.box4 img{width: 58vw;height: 100vh; object-fit: cover; overflow: hidden;}
+.box4 p:nth-child(4){
+   text-align: center;padding: 20px 40px;
+   width: 150px; border: 1px solid black; border-radius: 30px;font-size: 1rem;}
+
+.box5 { width: 62vw;height: 100vh;margin: auto; display: flex; flex-flow: column;justify-content: center;}
+.box5 h1{font-size: 120px;margin-bottom: 45px;}
+.box5 p{margin: 0;}
+.box5 .surch{margin: 20px 0;display: flex;gap: 30px;}
+.box5 input[type=text]{width: 44vw;
+    background-color: transparent;border-radius: 30px
+}
+.box5 .icons{display: flex;gap: 20px;}
+.box5 svg{ width: 30px;height: 30px;; border: 2px solid black;padding: 20px;border-radius: 50%;}
+.box5 .surch p{
+   text-align: center;padding: 10px;
+   width: 150px; border: 2px solid black; border-radius: 20px;font-size: 1rem;}
+
