@@ -1,0 +1,33 @@
+<html>
+
+<body>
+   <script>
+
+      const Id = 'name';
+      const Pw = 1234;
+
+      let log = prompt('아이디를 입력해주세요');
+
+      switch (log) {
+         case 'name':
+            alert('아이디가 일치합니다.');
+
+            let userPw = prompt('비밀번호를 입력해주세요');
+
+            switch (userPw) {
+               case '1234':
+                  document.body.innerHTML = '<h2>로그인 되었습니다.</h2>';
+                  break;
+               default:
+                  document.body.innerHTML = '<h2>비밀번호가 일치하지 않습니다.</h2>';
+            }
+
+            break;
+
+         default:
+            document.body.innerHTML = '<h2>아이디가 일치하지 않습니다.</h2>';
+      }
+   </script>
+</body>
+
+</html>

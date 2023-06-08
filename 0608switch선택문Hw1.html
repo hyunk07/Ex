@@ -1,0 +1,42 @@
+<html>
+
+<style>
+   img {
+      width: 50%;
+   }
+</style>
+
+<body>
+
+
+   <script>
+      let num = prompt('1~4까지의 숫자를 입력하시오');
+      let img = '';
+
+      switch (num) {
+         case null:// 취소 버튼 클릭시 0이 아니라 null로 쓰기 
+            img = "<h2>취소했습니다.</h2>";
+            break;
+         case '1':
+            img = "<img src= './images/bukchon.jpg' alt='img1'>";
+            break;
+         case '2':
+            img = "<img src= './images/mapo1.jpg' alt='img2'>";
+            break;
+         case '3':
+            img = "<img src= './images/namsan2.jpg' alt='img3'>";
+            break;
+         case '4':
+            img = "<img src= './images/seochon1.jpg' alt='img4'>";
+            break;
+         default:
+            img = '<h2>해당번호만 입력해주세요</h2>';
+      }
+
+      document.body.innerHTML = img;
+   </script>
+
+
+</body>
+
+</html>
